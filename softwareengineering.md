@@ -14,15 +14,19 @@ The capacity to understand every layer of a software product.
       * cassandra 
       * mongodb 
 3. Business Logic
-4. API layer / Action Layer / MVC
+4. Containerization
+   * docker 
+   * skaffold
+   * kubernetes
+5. API layer / Action Layer / MVC
    * spring & spring boot 
-5. User Interface
+6. User Interface
    * javascript 
      * react 
    * html 
    * css
-6. User Experience
-7. Testing
+7. User Experience
+8. Testing
    * mocking 
 
 ### Reading list
