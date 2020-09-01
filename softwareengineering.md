@@ -32,6 +32,7 @@ The capacity to understand every layer of a software product.
 ### Reading list
 * Clean Code: A Handbook of Agile Software Craftsmanship
 * The Clean Coder: A Code of Conduct for Professional Programmers
+* Clean Architecture: A Crafsman's Guide to Software Structure and Design
 * Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
 * Design Patterns: Elements of Reusable Object-Oriented Software
 * Code Complete: A Practical Handbook of Software Construction
