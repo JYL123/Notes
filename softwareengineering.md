@@ -4,7 +4,8 @@
 The capacity to understand every layer of a software product.
 ``` 
 1. System administration and networking 
-   * server, network, and hosting environment.
+   * server, network, and hosting environment
+   * dotfiles
 2. Data Modeling
    * data modeling 
    * relational database 
