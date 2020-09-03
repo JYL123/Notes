@@ -19,10 +19,11 @@ ORM :
 ```
 DAO pattern is a structural pattern that allows us to isolate the application/business layer from the persistence layer (usually a relational database, but it could be any other persistence mechanism) using an abstract API.
 ```
-* Composition 
-* [Dependency injection](https://github.com/JYL123/Notes/blame/master/principles.md#L3)
+   * Composition 
+   * [Dependency injection](https://github.com/JYL123/Notes/blame/master/principles.md#L3)
 
-DAO coding example: https://www.baeldung.com/java-dao-pattern#using-the-pattern-with-jpa
+* [DAO coding example](https://www.baeldung.com/java-dao-pattern#using-the-pattern-with-jpa)
+* [My implementation](https://github.com/JYL123/Java-DTO-DAO) 
 
 
 Reference: 
