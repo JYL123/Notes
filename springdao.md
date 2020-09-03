@@ -16,8 +16,16 @@ ORM :
     
 3. `Spring Data Access Object(DAO)` is one of the frameworks for `JAVA ORM(Object Relational Mapping) Framework`.
 
+```
+DAO pattern is a structural pattern that allows us to isolate the application/business layer from the persistence layer (usually a relational database, but it could be any other persistence mechanism) using an abstract API.
+```
+* Composition 
+* Dependency injection
+
+DAO coding example: https://www.baeldung.com/java-dao-pattern#using-the-pattern-with-jpa
+
 
 Reference: 
-https://www.tutorialspoint.com/hibernate/orm_overview.htm
-https://www.baeldung.com/java-dao-pattern
+* https://www.tutorialspoint.com/hibernate/orm_overview.htm
+* https://www.baeldung.com/java-dao-pattern
 
