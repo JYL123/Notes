@@ -20,7 +20,9 @@ The capacity to understand every layer of a software product.
    * skaffold
    * kubernetes
 5. API layer / Action Layer / MVC
-   * spring & spring boot 
+   * spring
+     * spring DAO
+   * spring boot 
 6. User Interface
    * javascript 
      * react 
