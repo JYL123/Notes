@@ -5,7 +5,7 @@ The capacity to understand every layer of a software product.
 ``` 
 1. System administration and networking 
    * server, network, and hosting environment
-   * automation
+   * [automation](https://github.com/JYL123/Notes/blob/master/automation.md)
    * [dotfiles](https://github.com/JYL123/dotfiles)
 2. Data Modeling
    * data modeling 
