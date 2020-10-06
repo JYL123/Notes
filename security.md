@@ -20,3 +20,13 @@ If an application uses attacker-supplied inputs to construct a structured messag
 
 ### Use encryption protocols and algorithm 
 
+### Provide minimal error messages to end user as to not divulge possible code weak points
+
+### Scan code prior to release and resolve any known vulnerabilities
+
+### Implement secure authentication and authorization mechanisms
+
+### Maintain security audit logging 
+
+### Have code reviews 
+
