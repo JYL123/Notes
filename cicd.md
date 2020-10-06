@@ -24,7 +24,7 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 ### Continuous delivery and why 
 * a development discipline where sotware is built in such a way that it can be released to production at any time
 
-### CICD server
+### CICD server (Jenkins automation)
 * Provides a central service to:
     * Build 
     * Test 
@@ -33,6 +33,11 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
     * Continuous integration and delivery (CI/CD)
 * Integrated with the cloud infrasturcture, control platforms, chat agents, authentication solutions and repositories
 * Bitbucket, Jenkins an cloud technologies ensure builds are automated, scalable and elastic 
+
+## Flow of source code 
+Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> publish --> deploy
+
+
 
 ### Static vs. Dynamic Scanning 
 * Why? to identify application weaknesses and identify application vulnerabilities. To either prevent or remediate weakness of an applicatin. 
