@@ -27,13 +27,15 @@ The capacity to understand every layer of a software product.
      * [Java DTO](https://github.com/JYL123/Notes/blob/master/springdto.md)
    * spring boot
    * [API design](https://github.com/JYL123/Notes/blob/master/apidesign.md)
-6. User Interface
+6. CI/CD 
+7. Deployment & Monitoring 
+8. User Interface
    * javascript 
      * react 
    * html 
    * css
-7. User Experience
-8. Testing
+9. User Experience
+10. Testing
    * mocking 
 
 ### Reading list
