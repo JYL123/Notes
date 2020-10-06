@@ -34,11 +34,6 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 * Integrated with the cloud infrasturcture, control platforms, chat agents, authentication solutions and repositories
 * Bitbucket, Jenkins an cloud technologies ensure builds are automated, scalable and elastic 
 
-## Flow of source code 
-Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> publish --> deploy
-
-
-
 ### Static vs. Dynamic Scanning 
 * Why? to identify application weaknesses and identify application vulnerabilities. To either prevent or remediate weakness of an applicatin. 
 * Static: when application is not in run time
@@ -54,3 +49,5 @@ Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> 
    * OSS scan management 
      * Soteria
 
+### Flow of source code 
+Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> publish --> deploy
