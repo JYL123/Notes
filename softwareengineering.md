@@ -22,13 +22,13 @@ The capacity to understand every layer of a software product.
    * skaffold
    * kubernetes
 5. API layer / Action Layer / MVC
-   * spring
+   * [spring](https://github.com/JYL123/Notes/blob/master/spring.md)
      * [Java DAO](https://github.com/JYL123/Notes/blob/master/springdao.md)
      * [Java DTO](https://github.com/JYL123/Notes/blob/master/springdto.md)
    * spring boot
    * [API design](https://github.com/JYL123/Notes/blob/master/apidesign.md)
-6. CI/CD 
-7. Security
+6. [CI/CD](https://github.com/JYL123/Notes/blob/master/cicd.md) 
+7. [Security](https://github.com/JYL123/Notes/blob/master/security.md)
 8. User Interface
    * javascript 
      * react 
