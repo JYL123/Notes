@@ -24,7 +24,7 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 ### Continuous delivery and why 
 * a development discipline where sotware is built in such a way that it can be released to production at any time
 
-### CICD server (Jenkins automation)
+### CICD/Build server (Jenkins automation)
 * Provides a central service to:
     * Build 
     * Test 
