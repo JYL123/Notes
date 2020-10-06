@@ -39,5 +39,13 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 * Static: when application is not in run time
 * Dynamic: when applicatin is running 
 
-
+### Static scan
+* S3: static scanning: scans all static code for all applications in the firm. 
+* Fortify AWB
+* Open source scanning: scans the open source components/libraries used by an application
+   * Apche boi 
+   * Blackduck: for lagency/retiring projects 
+   * Raven 
+   * OSS scan management 
+     * Soteria
 
