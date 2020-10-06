@@ -9,10 +9,10 @@
 
 ### Spring basics
 * Features of Spring Framework 
- * Dependency injection 
- * IoC container (Bean Factory & Application Contex) 
- * Autowiring 
- * Component scanning 
+  * Dependency injection 
+  * IoC container (Bean Factory & Application Contex) 
+  * Autowiring 
+  * Component scanning 
 
 * @SpringBootApplication to the main class
 * @Autowired: auto injection by spring framework; a field injection, a constructor injection, a setter injection
