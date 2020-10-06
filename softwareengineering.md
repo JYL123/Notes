@@ -28,7 +28,7 @@ The capacity to understand every layer of a software product.
    * spring boot
    * [API design](https://github.com/JYL123/Notes/blob/master/apidesign.md)
 6. CI/CD 
-7. Deployment & Monitoring 
+7. Security
 8. User Interface
    * javascript 
      * react 
