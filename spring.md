@@ -32,3 +32,20 @@
 * @postconstruct
 * @predestroy
 * @configuration: a bean, and how it is constructed
+
+### Spring MVC
+* Used for Web applications
+  * View presents the model in a particular format 
+  * Controller receives user input, optionally validates it, and passes the input to the model
+  * Model manages application data
+  
+### Moneta Boot 
+go/MonetaBoot
+* Embrace core principles 
+ * Spring MVC over Jersey 
+ * Spring security 
+ * Spring cloud sleuth for distributed tracing 
+
+
+
+
