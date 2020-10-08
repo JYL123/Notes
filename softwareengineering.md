@@ -37,6 +37,7 @@ The capacity to understand every layer of a software product.
 9. User Experience
 10. Testing
    * mocking 
+11. Concurrency   
 
 ### Reading list
 * Clean Code: A Handbook of Agile Software Craftsmanship
