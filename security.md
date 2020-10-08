@@ -1,7 +1,7 @@
 
 ## Security 
 
-### Best practice 
+### Best practice part 1
 * Restrict inputs and perform input (JSON/XML) sanitization and validation
 
 Input sanitization describes cleansing and scrubbing user input to prevent it from jumping the fence and exploiting security holes. But thorough input sanitization is hard. While some vulnerable sites simply don’t sanitize at all, others do so incompletely, lending their owners a false sense of security.
@@ -62,3 +62,6 @@ It is a best practice to log the following events:
 
 * Have code reviews 
 Review a small chunks of code at a time (less than 400 LOC) as quality of the review is important for bug/defect identification
+
+### Best practice part 2
+
