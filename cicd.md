@@ -37,7 +37,8 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 * Bitbucket, Jenkins an cloud technologies ensure builds are automated, scalable and elastic 
 
 ### Javascript, Python pipeline vs. Java pipeline
-* Jar files are nor required for scripting languages to be upload to platform before deploy
+* Jar files are nor required for scripting languages to be upload to platform before deploy.
+* [Compilation stages for high-level programming languages](http://www.mathcs.emory.edu/~cheung/Courses/255/Syl-ARM/4-intro/translate.html)
 
 ### Static vs. Dynamic Scanning 
 * Why? to identify application weaknesses and identify application vulnerabilities. To either prevent or remediate weakness of an applicatin. 
