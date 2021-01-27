@@ -56,3 +56,6 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
 
 ### Flow of source code 
 Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> publish --> deploy
+
+### Intresting reads:
+* http://svnbook.red-bean.com/en/1.7/svn-book.pdf
