@@ -36,7 +36,7 @@ The capacity to understand every layer of a software product.
    * css
 9. User Experience
 10. Testing
-   * mocking 
+   * [mocking](https://github.com/JYL123/Notes/blob/master/mock.md) 
 11. Concurrency   
 
 ### Reading list
