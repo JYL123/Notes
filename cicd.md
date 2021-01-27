@@ -60,3 +60,4 @@ Initialize (bitbucket webhook with cicd server) --> build --> test --> scan --> 
 
 ### Intresting reads:
 * http://svnbook.red-bean.com/en/1.7/svn-book.pdf
+* https://www.geeksforgeeks.org/difference-between-concurrent-versions-system-cvs-and-subversion-svn/
