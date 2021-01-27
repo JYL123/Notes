@@ -1,5 +1,7 @@
 ## CI/CD
 
+[CICD defined here.](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+
 ### Traditional integration problems 
 * Multiple developers working in isolation and delaying integration until a later point
 * Release builds performed on developer hardware (no assurance code on developer machine matches source repository tests)
@@ -33,6 +35,9 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
     * Continuous integration and delivery (CI/CD)
 * Integrated with the cloud infrasturcture, control platforms, chat agents, authentication solutions and repositories
 * Bitbucket, Jenkins an cloud technologies ensure builds are automated, scalable and elastic 
+
+### Javascript, Python pipeline vs. Java pipeline
+* Jar files are nor required for scripting languages to be upload to platform before deploy
 
 ### Static vs. Dynamic Scanning 
 * Why? to identify application weaknesses and identify application vulnerabilities. To either prevent or remediate weakness of an applicatin. 
