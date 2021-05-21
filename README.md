@@ -2,7 +2,7 @@
 
 * Algorithm
 
-* Machine Learning 
+* [Machine Learning](https://github.com/JYL123/Notes/blob/master/mlbasic.md)
 
 * Artificial Intelligence 
 
