@@ -241,3 +241,5 @@ stop, or restart the Linux and Unix system daemons.
 
 * [Launch upon start](http://developernotes.com/archive/2011/04/06/169.aspx)
 
+reference:
+* https://linuxjourney.com/
