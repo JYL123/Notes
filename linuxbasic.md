@@ -275,56 +275,5 @@ stop, or restart the Linux and Unix system daemons.
 
 * [Launch upon start](http://developernotes.com/archive/2011/04/06/169.aspx)
 
-```
-#!/bin/bash
-
-# chkconfig: 6 90 10
-# description: Start bdt_job_manager upon reboot
-
-# define any local shell functions used by the code that follows
-# uat script test on cicd process first
-prog=jpmc_89907_bdt_job_manager_start_cicd
-script_to_run=/aim/gfs/quad/gti-tech-capabilities/89907-bdt-job-manager/testing/bdt-job-manager/start.sh
-log_file=/home/F691446/job-manager-cicd.log
-
-start() {
-  echo -n "Starting ${prog}: "
-  # run the start script of job manager as fid so fid can still kill this process when needed
-  su F691446 -c "sh /aim/gfs/quad/gti-tech-capabilities/89907-bdt-job-manager/testing/bdt-job-manager/start.sh cicd F691446"
-}
-
-check_file_exist() {
-  echo -n "check if the script to run exist"
-  if [ -e ${script_to_run} ]
-  then
-    echo "the script to run exists" >> ${log_file}
-  else
-    echo "the script to run doesn't exist" >> ${log_file}
-    echo "check the existence of the scipt to run"
-    # exit running if script to run doesn't exist
-    exit 1
-  fi
-}
-
-
-######################################################################################
-# Main
-######################################################################################
-
-# check if script to run exist
-check_file_exist
-
-# check if job manage is running
-# job manager is not runing, restart the process with user=fid, env=uat
-if [ "$(ps -ef | grep -v grep | grep "load_module.py cicd F691446" | wc -l)" -le 0 ]
-then
- # run the start script of job manager as fid so fid can still kill this process when needed
- start
- echo "Job manager started upon system reboot as fid" >> ${log_file}
-else
- echo "Job manager already running upon system reboot" >> ${log_file}
-fi
-```
-
 reference:
 * https://linuxjourney.com/
