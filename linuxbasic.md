@@ -230,6 +230,10 @@ When the kernel is loaded, it immediately initializes devices and memory. The ma
 
 Remember the init process is the first process that gets started, init starts and stops essential service process on the system. There are three major implementations of init in Linux distributions. We will go over them briefly and then dive into them in another course.
 
+## Kernel
+
+#### 
+
 ## Init
 The main purpose of init is to start and stop essential processes on the system. There are 3 major implementation of init in Linux, System V, Upstart, and Systemd. 
 
