@@ -226,13 +226,43 @@ The bootloader loads the kernel into memory and then starts the kernel with a se
 
 When the kernel is loaded, it immediately initializes devices and memory. The main job of the kernel is to load up the init process.
 
+#### Initrd vs Initramfs
+The kernel manages our systems hardware, however not all drivers are available to the kernel during bootup. So we depend on a temporary root filesystem that contains just the essential modules that the kernel needs to get to the rest of the hardware.
+
+In older versions of Linux, this job was given to the `initrd (initial ram disk)`. The kernel would mount the initrd, get the necessary bootup drivers, then when it was done loading everything it needed, it would replace the initrd with the actual root filesystem.
+
+These days, we have something called the `initramfs`, this is a temporary root filesystem that is built into the kernel itself to load all the necessary drivers for the real root filesystem, so no more locating the initrd file.
+
+#### Mounting the root filesystem
+Now the kernel has all the modules it needs to create a root device and mount the root partition. Before you go any further though, the root partition is actually mounted in read-only mode first so that `fsck` can run safely and check for system integrity. Afterwards it remounts the root filesystem in read-write mode. Then the kernel locates the init program and executes it.
+
+The system utility **fsck** is a tool for checking the consistency of a file system in Unix and Unix-like operating systems, such as Linux, macOS, and FreeBSD. 
+
 **4. Init**
 
-Remember the init process is the first process that gets started, init starts and stops essential service process on the system. There are three major implementations of init in Linux distributions. We will go over them briefly and then dive into them in another course.
+Remember the init process is the first process that gets started, init starts and stops essential service process on the system. There are **three major implementations of init** in Linux distributions. We will go over them briefly and then dive into them in another course.
+
+#### System V init (sysv)
+
+This is the traditional init system. It sequentially starts and stops processes, based on startup scripts. The state of the machine is denoted by runlevels, each runlevel starts or stops a machine in a different way.
+
+#### Upstart
+
+This is the init you'll find on older Ubuntu installations. Upstart uses the idea of jobs and events and works by starting jobs that performs certain actions in response to events.
+
+#### Systemd
+
+This is the new standard for init, it is goal oriented. Basically you have a goal that you want to achieve and systemd tries to satisfy the goal's dependencies to complete the goal.
 
 ## Kernel
+The Linux operating system can be organized into three different levels of abstraction.
 
-#### 
+The most basic level is hardware, this includes our CPU, memory, hard disks, networking ports, etc. The physical layer that actually computes what our machine is doing.
+
+The next level is the kernel, which **handles process and memory management, device communication, system calls, sets up our filesystem, etc**. The kernel's job is to talk to the hardware to make sure it does what we want our processes to do.
+
+And the level that you are familiar with is the user space, the user space includes the shell, the programs that you run, the graphics, etc.
+
 
 ## Init
 The main purpose of init is to start and stop essential processes on the system. There are 3 major implementation of init in Linux, System V, Upstart, and Systemd. 
