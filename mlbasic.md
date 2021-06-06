@@ -12,3 +12,6 @@ Loss function/cost function is an (objective) function is used to define how bad
 
 * [SVM](https://github.com/JYL123/Notes/blob/master/svm.md)
 * GAN
+
+### Distribution
+A distribution is a mathematical representation of every possible value of our parameter and how likely we are to observe each one. 
