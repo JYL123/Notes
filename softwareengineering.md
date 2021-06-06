@@ -38,7 +38,8 @@ The capacity to understand every layer of a software product.
 9. User Experience
 10. Testing
    * [mocking](https://github.com/JYL123/Notes/blob/master/mock.md) 
-11. Concurrency   
+11. Logging
+12. Concurrency   
 
 ### Reading list
 * Clean Code: A Handbook of Agile Software Craftsmanship
