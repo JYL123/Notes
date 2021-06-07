@@ -11,7 +11,7 @@ In 'machine learning', a hyperplane is a linear (often after transforming the sp
 Loss function/cost function is an (objective) function is used to define how bad a model does its job. An optimization problem tries to minimize the loss/cost. If the objective function is the negative of the loss/cost function, the function is called reward/utility function, in this case, we need to seek to maximize the reward/utility.
 
 * [SVM](https://github.com/JYL123/Notes/blob/master/svm.md)
-* GAN
+* [GAN](https://github.com/JYL123/Notes/blob/master/gan.md)
 
 ### Distribution
 A `distribution` is a mathematical representation of every possible value of our parameter and how likely we are to observe each one. 
