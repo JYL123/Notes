@@ -23,3 +23,17 @@ Instead of just representing the values of a parameter and how likely each one i
 To begin, MCMC methods pick a random parameter value to consider. The simulation will continue to generate random values (**this is the Monte Carlo part**), but subject to some rule for determining what makes a good parameter value. The trick is that, for a pair of parameter values, it is possible to compute which is a better parameter value, by computing how likely each value is to explain the data, given our prior beliefs.f a randomly generated parameter value is better than the last one, it is added to the chain of parameter values with a certain probability determined by how much better it is (**this is the Markov chain part**).
 
 reference: https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
+
+### Matplotlib
+```
+In [4]: import matplotlib.pyplot as plt                                                                                                                              In [5]: import matplotlib.image as mpimg                                                                                                                            
+In [6]: import numpy as np                                                                                   
+```
+`pyplot` is Matplotlib's imperative-style plotting interface. This interface maintains global state, and is very useful for quickly and easily experimenting with various plot settings. 
+
+```
+img = mpimg.imread('/Users/ljy/Desktop/stinkbug.png')
+print(img)
+```
+loading image with `imread`
+
