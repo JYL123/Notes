@@ -23,7 +23,7 @@ The capacity to understand every layer of a software product.
    * skaffold
    * kubernetes
 5. API layer / Action Layer / MVC
-   * [spring](https://github.com/JYL123/Notes/blob/master/spring.md)
+   * [spring](https://github.com/JYL123/Notes/blob/master/se/spring.md)
      * [Java DAO](https://github.com/JYL123/Notes/blob/master/se/springdao.md)
      * [Java DTO](https://github.com/JYL123/Notes/blob/master/se/springdto.md)
    * spring boot
