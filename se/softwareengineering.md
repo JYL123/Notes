@@ -4,9 +4,9 @@
 The capacity to understand every layer of a software product.
 ``` 
 1. System administration and networking 
-   * [Linux](https://github.com/JYL123/Notes/blob/master/linuxbasic.md)
+   * [Linux](https://github.com/JYL123/Notes/blob/master/se/linuxbasic.md)
    * server, network, and hosting environment
-   * [server automation](https://github.com/JYL123/Notes/blob/master/automation.md)
+   * [server automation](https://github.com/JYL123/Notes/blob/master/se/automation.md)
    * [dotfiles](https://github.com/JYL123/dotfiles)
    * database backup switch 
 2. Data Modeling
@@ -24,12 +24,12 @@ The capacity to understand every layer of a software product.
    * kubernetes
 5. API layer / Action Layer / MVC
    * [spring](https://github.com/JYL123/Notes/blob/master/spring.md)
-     * [Java DAO](https://github.com/JYL123/Notes/blob/master/springdao.md)
-     * [Java DTO](https://github.com/JYL123/Notes/blob/master/springdto.md)
+     * [Java DAO](https://github.com/JYL123/Notes/blob/master/se/springdao.md)
+     * [Java DTO](https://github.com/JYL123/Notes/blob/master/se/springdto.md)
    * spring boot
-   * [API design](https://github.com/JYL123/Notes/blob/master/apidesign.md)
-6. [CI/CD](https://github.com/JYL123/Notes/blob/master/cicd.md) 
-7. [Security](https://github.com/JYL123/Notes/blob/master/security.md)
+   * [API design](https://github.com/JYL123/Notes/blob/master/se/apidesign.md)
+6. [CI/CD](https://github.com/JYL123/Notes/blob/master/se/cicd.md) 
+7. [Security](https://github.com/JYL123/Notes/blob/master/se/security.md)
 8. User Interface
    * javascript 
      * react 
@@ -37,7 +37,7 @@ The capacity to understand every layer of a software product.
    * css
 9. User Experience
 10. Testing
-   * [mocking](https://github.com/JYL123/Notes/blob/master/mock.md) 
+   * [mocking](https://github.com/JYL123/Notes/blob/master/se/mock.md) 
 11. Logging
 12. Concurrency   
 
