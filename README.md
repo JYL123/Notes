@@ -1,8 +1,8 @@
-* [Software Engineering](https://github.com/JYL123/Notes/blob/master/softwareengineering.md) 
+* [Software Engineering](https://github.com/JYL123/Notes/blob/master/se/softwareengineering.md) 
 
 * Algorithm
 
-* [Machine Learning](https://github.com/JYL123/Notes/blob/master/mlbasic.md)
+* [Machine Learning](https://github.com/JYL123/Notes/blob/master/ml/mlbasic.md)
 
 * Artificial Intelligence 
 
