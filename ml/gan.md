@@ -1,7 +1,7 @@
 [Generative Adversial Network (GAN)](https://arxiv.org/pdf/1406.2661.pdf) is a generative model using adversial approach. This model can be used to replicate content, such as cat/dog images. The adversial approach is inspired by the game theory, where two models, a generator and a critic, are competing with each other while making each other stronger at the same time.
 
 The two models in `GAN` are generator and discriminator. The overview of the `GAN` is as below:
-![overview](https://github.com/JYL123/Notes/blob/master/gan_overview.png)
+![overview](https://github.com/JYL123/Notes/blob/master/ml/gan_overview.png)
 
 Both the generator and the discriminator are neural networks. The generator output is connected directly to the discriminator input. Through backpropagation, the discriminator's classification provides a signal that the generator uses to update its weights.
 
