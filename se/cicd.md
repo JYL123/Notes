@@ -35,6 +35,8 @@ Check-in code --> Source repository --> CI server [build, test, result] --> Test
     * Continuous integration and delivery (CI/CD)
 * Integrated with the cloud infrasturcture, control platforms, chat agents, authentication solutions and repositories
 * Bitbucket, Jenkins an cloud technologies ensure builds are automated, scalable and elastic 
+* Software Build in simpler term is an activity to translate the human-readable source code into the efficient executable program.
+* Build is the process of creating the application program for a software release, by taking all the relevant source code files and compiling them and then creating a build artefact, such as binaries or executable program, etc.
 
 ### Javascript, Python pipeline vs. Java pipeline
 * Jar files are nor required for scripting languages to be upload to platform before deploy.
