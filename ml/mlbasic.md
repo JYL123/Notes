@@ -1,5 +1,12 @@
 ## Basics
 
+### Batch size, Epoch, Iteration
+Batch size: training data are divided into batches, the size is the number of training data in one batch 
+Epoch: number of passes the entire training data running through the model
+Iteration: 1 batch of data running through the model and updating weights
+
+check out: https://radiopaedia.org/articles/epoch-machine-learning?lang=us
+
 ### Hyperplane: 
 
 In 'mathematics', a hyperplane H is a linear subspace of a vector space V such that the basis of H has cardinality one less than the cardinality of the basis for V.  In other words, if V is an n-dimensional vector space than H is an (n-1)-dimensional subspace.  
